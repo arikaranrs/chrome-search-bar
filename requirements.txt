@@ -1,0 +1,52 @@
+# <CHANGE> Updated requirements for Windows compatibility
+# KIRA Voice Assistant Backend Dependencies
+# Windows-compatible versions that don't require compilation
+
+flask==2.3.3
+flask-cors==4.0.0
+google-generativeai==0.3.2
+
+# Computer Vision - Windows pre-compiled wheel available
+opencv-python==4.8.1.78
+
+# Numerical computing - Windows pre-compiled wheel available
+numpy==1.24.3
+
+# Image processing - Windows pre-compiled wheel available
+pillow==10.0.1
+
+# Speech recognition - Windows compatible
+speechrecognition==3.10.0
+
+# Text-to-speech - Windows compatible
+pyttsx3==2.90
+
+# LiveKit integration - Windows compatible
+livekit==0.10.1
+livekit-api==0.5.3
+
+# Environment variables
+python-dotenv==1.0.0
+
+# WebSocket support
+websockets==11.0.3
+
+# Natural language processing - lightweight alternative to scikit-learn
+textblob==0.17.1
+
+# Audio processing - commented out due to Windows compilation issues
+# pyaudio==0.2.11
+
+# Alternative lightweight packages for Windows
+requests==2.31.0
+urllib3==2.0.7
+certifi==2023.7.22
+
+# JSON handling
+jsonschema==4.19.2
+
+# Date/time utilities
+python-dateutil==2.8.2
+
+# Logging utilities
+colorlog==6.7.0
